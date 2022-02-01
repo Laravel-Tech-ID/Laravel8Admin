@@ -1,0 +1,14 @@
+1. Create Database
+2. Ubah Env
+   Non Aktifkan RoleAccessServiceProvider di config/app.php
+3. Migrate Aplikasi
+4. Export database sebelumnya
+   Semua terkait spatie jangan didownload, kecuali:
+   - roles
+5. Ubah guard_name di roles jadi desc
+   Tambahkan field role ke table users setelah field status
+6. Import db ke db baru
+
+Remove Debug bar on Production:
+   $ composer remove vendor/barryvdh/laravel-debugbar
+   $ composer update
