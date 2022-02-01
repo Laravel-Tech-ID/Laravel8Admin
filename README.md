@@ -38,6 +38,17 @@ Profile
 ```cmd
 git clone https://github.com/Laravel-Tech-ID/Laravel8Admin.git
 ```
+#### Create Database and put the config on .env file like below:
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_SOCKET=/var/run/mysqld/mysqld.sock
+DB_PORT=3306
+DB_DATABASE=laravel8admin
+DB_USERNAME=root
+DB_PASSWORD=
+
+```
 #### Comment out line 34 to 38 on file Modules\Access\Providers\RoleAccessServiceProvider.php on boot function to be like this:
 ```php
 public function boot()
