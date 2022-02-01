@@ -34,6 +34,10 @@ Profile
 
 
 ## Installation
+#### Clone the file to your local by typing below command:
+```cmd
+git clone https://github.com/Laravel-Tech-ID/Laravel8Admin.git
+```
 #### Comment out line 34 to 38 on file Modules\Access\Providers\RoleAccessServiceProvider.php on boot function to be like this:
 ```php
 public function boot()
