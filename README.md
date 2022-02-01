@@ -1,10 +1,7 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Laravel%208%20Admin.png" width="400"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+
 </p>
 
 ## About Laravel 8 Admin
@@ -18,6 +15,23 @@ Laravel 8 Admin is a starter pack for developing laravel application. This appli
 5. Build on Laravel Modules
 6. Build on Service Layer
 7. Switcable Admin Theme (on progress)
+
+## Screenshot
+Login
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Login.png">
+Dashboard
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Dashboard.png">
+User Management
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/User%20Management.png">
+Role Management
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Role%20Management.png">
+Role Access
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Role%20Access.png">
+Setting
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Setting.png">
+Profile
+<img src="https://raw.githubusercontent.com/Laravel-Tech-ID/Laravel8Admin/master/public/images/Profile.png">
+
 
 ## Installation
 #### Comment out line 34 to 38 on file Modules\Access\Providers\RoleAccessServiceProvider.php on boot function to be like this:
