@@ -19,7 +19,7 @@ class App
     {
         if(Auth::check()){
             if(!Auth::user()->hasAccess(Route::current()->getName())){
-                return redirect(route('admin.dashboard.index'));
+                return redirect(route('admin.v1.dashboard.index'));
             }
         }else{
             return redirect(route('login'));

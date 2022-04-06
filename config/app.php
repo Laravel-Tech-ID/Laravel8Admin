@@ -276,6 +276,7 @@ return [
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Functions' => App\Functions::class,
+        'Response' => App\Response::class,
     ],
 
 ];
