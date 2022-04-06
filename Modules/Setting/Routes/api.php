@@ -14,9 +14,6 @@ use Modules\Setting\Entities\Setting;
 |
 */
 
-Route::group(['middleware' => 'api', 'prefix' => 'v1'], function(){
-    Route::group(['prefix' => 'setting'], function(){
-        Route::get('index', [Modules\Setting\Http\Controllers\V1\SettingController::class, 'index']);
-        Route::post('store', [Modules\Setting\Http\Controllers\V1\SettingController::class, 'store']);
-    });
-});
+// Route::middleware('auth:api')->get('/setting', function (Request $request) {
+//     return $request->user();
+// });
